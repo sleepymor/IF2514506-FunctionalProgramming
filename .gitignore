@@ -1,0 +1,18 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# Cargo
+**/*.rs.bk
+.cargo-ok
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Env
+.env
