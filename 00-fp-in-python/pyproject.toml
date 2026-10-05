@@ -1,0 +1,17 @@
+[project]
+name = "00-fp-in-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tiramissu", email = "nemorzgm.05@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+00-fp-in-python = "00_fp_in_python:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
